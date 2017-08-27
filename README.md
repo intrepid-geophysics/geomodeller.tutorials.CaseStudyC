@@ -1,1 +1,1 @@
-# geomodeller.tutorials.CaseStudyC
+# GeoModeller CaseStudyC (Unconformities and intrusives)
