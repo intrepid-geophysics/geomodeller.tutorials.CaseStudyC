@@ -1,0 +1,2190 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<Project3DEdit xmlns="http://www.geomodeller.com/geo" projectName="GeoIntrusive2D_ModelEx3_0Uncon0Intr" author="" version="1.0" description="GeoIntrusive2D Tutorial - showing a sequence of geological events" date=" 8/ 8/2004  9:56: 3" CoordSystem="" unit="M" precision="1" deflection2d="0.001" deflection3d="0.001" discretisation="10" pickingFactor="5" dynamicSelection="true" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <Extent3DOfProject>
+    <ExtentBox3D>
+      <Extent3D>
+        <ExtentXY Xmin="334186" Ymin="6.49888e+006" Xmax="340186" Ymax="6.50488e+006"/>
+        <ExtentZ Zmin="-1800" Zmax="200"/>
+      </Extent3D>
+      <GraphicTitle Title="GeoIntrusive2D_ModelEx3_0Uncon0Intr">
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="0" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+        <Location>
+          <gml:coordinates>334186,6498880,-1800</gml:coordinates>
+        </Location>
+      </GraphicTitle>
+      <GraphicBox3d>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="0" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicBox3d>
+      <GraphicTick OnOff="true" DensityAlongX="3" DensityAlongY="3" DensityAlongZ="2" TickLength="240">
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="0" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicTick>
+      <GraphicLabel OnOff="true" LabelFormat="%.1f">
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="0" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicLabel>
+    </ExtentBox3D>
+    <TriAxis>
+      <Axis3DDefinition OnOff="true" Radius="30" Step="600" Size="120" LabelOrigin="" LabelX="" LabelY="" LabelZ="">
+        <gml:Point>
+          <gml:coordinates>333586,6498280,-1800</gml:coordinates>
+        </gml:Point>
+        <Length LengthX="600" LengthY="600" LengthZ="600"/>
+      </Axis3DDefinition>
+      <GraphicOrigin>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="0" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicOrigin>
+      <GraphicAxisX>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="0" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicAxisX>
+      <GraphicAxisY>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="0" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicAxisY>
+      <GraphicAxisZ>
+        <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="4" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="0" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+          <ColorShading Blue="255" Green="255" Red="255"/>
+          <ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </Graphic>
+      </GraphicAxisZ>
+    </TriAxis>
+  </Extent3DOfProject>
+
+  <Formations>
+    <Formation Name="Blu">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="138" Green="77" Red="15"/>
+        <ColorWireFrame Blue="138" Green="77" Red="15"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Blu2">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="205" Green="154" Red="0"/>
+        <ColorWireFrame Blue="205" Green="154" Red="0"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Brow">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="0" Green="0" Red="138"/>
+        <ColorWireFrame Blue="0" Green="0" Red="138"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Grn">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="0" Green="138" Red="68"/>
+        <ColorWireFrame Blue="0" Green="138" Red="68"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Grn2">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="0" Green="100" Red="0"/>
+        <ColorWireFrame Blue="0" Green="100" Red="0"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Indy">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="79" Green="10" Red="138"/>
+        <ColorWireFrame Blue="79" Green="10" Red="138"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="IndyBdry">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="102" Green="102" Red="102"/>
+        <ColorWireFrame Blue="102" Green="102" Red="102"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Oran">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="0" Green="102" Red="205"/>
+        <ColorWireFrame Blue="0" Green="102" Red="205"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="PostBluErodEvent">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="102" Green="102" Red="102"/>
+        <ColorWireFrame Blue="102" Green="102" Red="102"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="PostYellErodEvent">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="102" Green="102" Red="102"/>
+        <ColorWireFrame Blue="102" Green="102" Red="102"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Purp">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="138" Green="26" Red="84"/>
+        <ColorWireFrame Blue="138" Green="26" Red="84"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="PurpBdry">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="102" Green="102" Red="102"/>
+        <ColorWireFrame Blue="102" Green="102" Red="102"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Red">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="0" Green="54" Red="205"/>
+        <ColorWireFrame Blue="0" Green="54" Red="205"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Red2">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="38" Green="38" Red="205"/>
+        <ColorWireFrame Blue="38" Green="38" Red="205"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Vio">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="205" Green="0" Red="205"/>
+        <ColorWireFrame Blue="205" Green="0" Red="205"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="VioBdry">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="102" Green="102" Red="102"/>
+        <ColorWireFrame Blue="102" Green="102" Red="102"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Yel">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="12" Green="149" Red="205"/>
+        <ColorWireFrame Blue="12" Green="149" Red="205"/>
+      </Graphic>
+    </Formation>
+    <Formation Name="Yell2">
+      <FormationGeology AbsoluteAge="0" StratigraphicAge="" MineralComposition="" DatingTechnique="0" Genesis="0" Description="0" Texture="" ExtraComment="" Lithology=""/>
+      <Geophysics FrontierMoveable="true">
+        <DensityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="2.67" Deviation="0" PercentageContribution="100"/>
+        </DensityCompoundDistribution>
+        <SusceptibilityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100"/>
+        </SusceptibilityCompoundDistribution>
+        <RemanantMagnetizationCompoundDistribution>
+          <SimpleDistributionVector LawType="Normal" Mean="0" Deviation="0" PercentageContribution="100" Dip="0" Declinaison="0"/>
+        </RemanantMagnetizationCompoundDistribution>
+        <VelocityCompoundDistribution>
+          <SimpleDistribution LawType="Normal" Mean="1500" Deviation="0" PercentageContribution="100"/>
+        </VelocityCompoundDistribution>
+      </Geophysics>
+      <Graphic TEXT_SIZE="30" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="6" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="0" Green="205" Red="205"/>
+        <ColorWireFrame Blue="0" Green="205" Red="205"/>
+      </Graphic>
+    </Formation>
+  </Formations>
+
+  <Sections>
+    <Section Name="Topo_Z" IsAxialSurface="false" Description="Topography of the model.">
+      <Graphic TEXT_SIZE="1" TEXT_ASPECT_RATIO="1" TEXT_FONT_FACE="0" SURFACE_TRANSPARENCY="0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_TEXTURE_EFFECT="9" LINE_WIDTH="1" LINE_TYPE="0" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL="3" SURFACE_RENDERING_MODE="0">
+        <ColorShading Blue="0" Green="255" Red="255"/>
+        <ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </Graphic>
+      <Shape3DOfSection FileName="TutorialC3_1_Topo_Z.sec"/>
+      <Intersections>
+        <Curve Degree="1" Name="WE">
+          <Pole-Weight U="334186" V="6501880" Weight="1"/>
+          <Pole-Weight U="340186" V="6501880" Weight="1"/>
+          <Knot-Multiplicity Knot="167093" Multiplicity="2"/>
+          <Knot-Multiplicity Knot="173093" Multiplicity="2"/>
+        </Curve>
+      </Intersections>
+    </Section>
+    <Section Name="WE" IsAxialSurface="false">
+      <Structural2DData>
+        <Interfaces>
+          <Interface>
+            <Data Name="Blu2"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">555.009,146.178 915.059,-172.006 1116.02,-381.337 1484.44,-666.028 1735.64,-749.76 1844.49,-724.641 1852.86,-599.042 1844.49,-431.577 1827.74,-213.872 1819.37,-38.0335 1894.73,121.058 2037.08,95.9387 2137.55,-54.7799 2413.87,-331.097 2639.95,-540.429 2949.76,-783.254 3301.44,-992.585 3485.65,-1067.94 3653.11,-1109.81 3862.45,-1093.06 3979.67,-967.465 3996.42,-791.627 4004.79,-657.655 3971.3,-498.563 3904.31,-264.111 3946.18,-71.5266 4088.52,-38.0335 4314.6,-121.766 4540.68,-305.978 4825.37,-607.415 5151.93,-892.106 5428.25,-1093.06 5671.07,-1210.29 5872.03,-1252.16 5980.88,-1168.42 5955.76,-984.212 5913.89,-774.88 5846.91,-548.802 5838.53,-389.71 5930.64,-331.097 5980.88,-339.471 </gml:coordinates>
+            </gml:LineString>
+            <FoliationObservation Azimuth="90" Dip="41.4677" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>735.034,-12.914</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="46.1687" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>1015.5395,-276.6715</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="37.6945" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>1300.23,-523.6825</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="18.4347" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>1610.04,-707.894</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="12.9945" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>1790.065,-737.2005</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="86.1874" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>1848.675,-661.8415</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="87.1387" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates>1848.675,-515.3095</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="85.6004" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates>1836.115,-322.7245</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="87.2747" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates>1823.555,-125.95275</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="64.6536" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>1857.05,41.51225</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="10.0075" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>1965.905,108.49835</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="56.3123" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2087.315,20.5794</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="44.9997" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2275.71,-192.93845</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="42.7972" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2526.91,-435.763</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="38.0889" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2794.855,-661.8415</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="30.7624" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>3125.6,-887.9195</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="22.2481" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>3393.545,-1030.2625</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="14.0379" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>3569.38,-1088.875</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="4.57468" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>3757.78,-1101.435</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="46.9754" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>3921.06,-1030.2625</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="84.5585" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>3988.045,-879.546</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="86.4251" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>4000.605,-724.641</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="78.1124" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates>3988.045,-578.109</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="74.0538" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates>3937.805,-381.337</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="77.7341" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>3925.245,-167.8188</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="13.241" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>4017.35,-54.78005</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="20.323" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>4201.56,-79.89975</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="39.1735" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>4427.64,-213.872</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="46.6366" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>4683.025,-456.6965</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="41.0815" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>4988.65,-749.7605</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="36.0266" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5290.09,-992.583</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="25.7706" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5549.66,-1151.675</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="11.7692" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5771.55,-1231.225</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="37.5716" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5926.455,-1210.29</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="82.2346" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates>5968.32,-1076.316</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="78.6891" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates>5934.825,-879.546</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="73.4971" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates>5880.4,-661.841</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="86.9848" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates>5842.72,-469.256</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="32.4701" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5884.585,-360.4035</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="9.46306" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5955.76,-335.284</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+          </Interface>
+          <Interface>
+            <Data Name="Blu"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">253.571,154.551 680.607,-331.097 1065.78,-657.655 1308.6,-850.24 1626.79,-1101.44 1894.73,-1176.8 2120.81,-1227.04 2254.78,-1084.69 2254.78,-925.599 2212.91,-674.401 2254.78,-565.549 2355.26,-582.295 2656.7,-833.493 2949.76,-1042.82 3276.32,-1193.54 3678.23,-1419.62 4080.15,-1520.1 4297.85,-1536.85 4465.32,-1486.61 4482.07,-1361.01 4465.32,-1201.92 4448.57,-959.092 4440.2,-791.627 4473.69,-716.267 4574.17,-716.267 4657.91,-816.747 4833.74,-992.585 5143.55,-1227.04 5470.11,-1394.5 5754.8,-1511.73 5930.64,-1528.47 5989.25,-1503.35 </gml:coordinates>
+            </gml:LineString>
+            <FoliationObservation Azimuth="90" Dip="48.6745" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>467.089,-88.273</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="40.292" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>873.1935,-494.376</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="38.4186" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>1187.19,-753.9475</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="38.2899" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>1467.695,-975.84</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="15.709" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>1760.76,-1139.12</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="12.5288" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2007.77,-1201.92</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="46.7371" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2187.795,-1155.865</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="90" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2254.78,-1005.1445</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="80.5369" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates>2233.845,-800</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="68.9607" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2233.845,-619.975</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="9.46195" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2305.02,-573.922</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="39.8053" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2505.98,-707.894</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="35.5375" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2803.23,-938.1565</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="24.7751" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>3113.04,-1118.18</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="29.3584" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>3477.275,-1306.58</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="14.0362" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>3879.19,-1469.86</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="4.39971" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>4189,-1528.475</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="16.6989" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>4381.585,-1511.73</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="82.4039" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>4473.695,-1423.81</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="83.9897" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates>4473.695,-1281.465</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="86.0541" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates>4456.945,-1080.506</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="87.1387" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates>4444.385,-875.3595</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="66.0396" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>4456.945,-753.947</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="360" Dip="3.50824e-015" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>4523.93,-716.267</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="50.1922" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>4616.04,-766.507</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="45.0013" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>4745.825,-904.666</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="37.1174" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>4988.645,-1109.8125</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="27.1488" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5306.83,-1310.77</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="22.3809" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5612.455,-1453.115</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="5.43818" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5842.72,-1520.1</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="23.1998" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5959.945,-1515.91</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+          </Interface>
+          <Interface>
+            <Data Name="Grn"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10.7468,137.805 379.17,-398.084 747.594,-766.507 1116.02,-1101.44 1593.29,-1361.01 2020.33,-1578.71 2422.25,-1729.43 2623.2,-1754.55 2732.06,-1737.8 2765.55,-1628.95 2723.68,-1486.61 2732.06,-1335.89 2807.42,-1285.65 2924.64,-1335.89 3075.36,-1444.74 3443.78,-1603.83 3686.61,-1687.57 4063.4,-1779.67 </gml:coordinates>
+            </gml:LineString>
+            <FoliationObservation Azimuth="90" Dip="55.4915" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>194.9584,-130.1395</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="44.9999" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>563.382,-582.2955</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="42.2737" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>931.807,-933.9735</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="28.5402" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>1354.655,-1231.225</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="27.012" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>1806.81,-1469.86</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="20.556" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2221.29,-1654.07</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="7.12537" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2522.725,-1741.99</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="8.74735" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2677.63,-1746.175</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="72.8984" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2748.805,-1683.375</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="73.6085" NormalPolarity="false">
+              <gml:Point>
+                <gml:coordinates>2744.615,-1557.78</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="86.8176" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2727.87,-1411.25</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="33.6901" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2769.74,-1310.77</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="23.1998" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>2866.03,-1310.77</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="35.8368" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>3000,-1390.315</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="23.3555" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>3259.57,-1524.285</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="19.0268" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>3565.195,-1645.7</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="13.7357" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>3875.005,-1733.62</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+          </Interface>
+          <Interface>
+            <Data Name="Grn2"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">4990.22,-1779.26 5021.91,-1633.48 5059.94,-1544.75 5136,-1513.06 5243.75,-1544.75 5319.81,-1589.12 5421.22,-1639.82 5541.65,-1703.2 5706.45,-1760.25 5839.55,-1779.26 </gml:coordinates>
+            </gml:LineString>
+            <FoliationObservation Azimuth="270" Dip="77.7357" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5006.065,-1706.37</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="66.7999" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5040.925,-1589.115</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="270" Dip="22.6188" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5097.97,-1528.905</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="16.389" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5189.875,-1528.905</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="30.2574" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5281.78,-1566.935</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="26.5628" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5370.515,-1614.47</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="27.757" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5481.435,-1671.51</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="19.0947" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5624.05,-1731.725</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+            <FoliationObservation Azimuth="90" Dip="8.12829" NormalPolarity="true">
+              <gml:Point>
+                <gml:coordinates>5773,-1769.755</gml:coordinates>
+              </gml:Point>
+            </FoliationObservation>
+          </Interface>
+          <Interface>
+            <Data Name="Grn2"/>
+            <gml:LineString>
+              <gml:coordinates decimal="." cs="," ts=" ">10,-1799 </gml:coordinates>
+            </gml:LineString>
+          </Interface>
+        </Interfaces>
+      </Structural2DData>
+      <Shape3DOfSection FileName="TutorialC3_1_WE.sec"/>
+      <Intersections>
+        <Curve Degree="1" Name="Topo_Z">
+          <Pole-Weight U="0" V="0" Weight="1"/>
+          <Pole-Weight U="6000" V="0" Weight="1"/>
+          <Knot-Multiplicity Knot="167093" Multiplicity="2"/>
+          <Knot-Multiplicity Knot="173093" Multiplicity="2"/>
+        </Curve>
+      </Intersections>
+    </Section>
+  </Sections>
+
+  <GeologicalModel SimplificationRadius="10">
+    <Extent3D>
+      <ExtentXY Xmin="334186" Ymin="6.49888e+006" Xmax="340186" Ymax="6.50488e+006"/>
+      <ExtentZ Zmin="-1800" Zmax="200"/>
+    </Extent3D>
+    <ModelSections>
+      <Data Name="Topo_Z"/>
+      <Data Name="WE"/>
+    </ModelSections>
+    <ProjectStratigraphicColumn IsBase="true">
+      <Series name="LowerFolds" relation="1" isUptodate="false">
+        <Data Name="Grn2"/>
+        <Data Name="Grn"/>
+        <Data Name="Blu"/>
+        <PotentialField maxValue="5979.25" Xmin="334196" Ymin="6.50188e+006" Zmin="-1799" Xmax="340175" Ymax="6.50188e+006" Zmax="154.551">
+          <covariance covarianceModel="1" isotropic="true" anisotropyA1="0" anisotropyA2="0" anisotropyA3="0" anisotropyV1="0.000114943" anisotropyV2="0.000114943" anisotropyV3="0.000114943" range="8700" gradient="1" nuggetGradient="0.01" tangentVariance="1" nuggetPotentiel="1e-006" degreDrift="1"/>
+          <Gradients>
+            <Gradient XGr="339176.22" YGr="6501880" ZGr="-1779.26" Gx="-0.977176266553951" Gy="0.000000001402954789176399" Gz="0.2124300922272598"/>
+            <Gradient XGr="340025.55" YGr="6501880" ZGr="-1779.26" Gx="0.1414207972444659" Gy="-0.0000000000290058903784974" Gz="0.989949573517126"/>
+            <Gradient XGr="339207.91" YGr="6501880" ZGr="-1633.48" Gx="-0.958536213958508" Gy="0.000000001376192830301262" Gz="0.284970746797086"/>
+            <Gradient XGr="339245.94" YGr="6501880" ZGr="-1544.75" Gx="-0.725951991394011" Gy="0.000000001042266229643574" Gz="0.687745378894741"/>
+            <Gradient XGr="339322" YGr="6501880" ZGr="-1513.06" Gx="0" Gy="0" Gz="1"/>
+            <Gradient XGr="339429.75" YGr="6501880" ZGr="-1544.75" Gx="0.38235285076023" Gy="-0.0000000000784218805943072" Gz="0.924016394614038"/>
+            <Gradient XGr="339505.81" YGr="6501880" ZGr="-1589.12" Gx="0.472221564727604" Gy="-0.0000000000968542619454608" Gz="0.881479888486523"/>
+            <Gradient XGr="339607.22" YGr="6501880" ZGr="-1639.82" Gx="0.457347833294938" Gy="-0.0000000000938036086337747" Gz="0.889287894542834"/>
+            <Gradient XGr="339727.65" YGr="6501880" ZGr="-1703.2" Gx="0.388972814399638" Gy="-0.0000000000797796578334098" Gz="0.921249233192639"/>
+            <Gradient XGr="339892.45" YGr="6501880" ZGr="-1760.25" Gx="0.247382907449942" Gy="-0.0000000000507390824745742" Gz="0.968917796875263"/>
+            <Gradient XGr="334196.7468" YGr="6501880" ZGr="137.805" Gx="0.824042151568258" Gy="-0.0000000001690138705294663" Gz="0.566528492168537"/>
+            <Gradient XGr="338249.4" YGr="6501880" ZGr="-1779.67" Gx="0.237453627857356" Gy="-0.0000000000487025531874274" Gz="0.971398875136975"/>
+            <Gradient XGr="334565.17" YGr="6501880" ZGr="-398.084" Gx="0.775234522223944" Gy="-0.0000000001590032584131433" Gz="0.631673519749097"/>
+            <Gradient XGr="334933.594" YGr="6501880" ZGr="-766.507" Gx="0.690475997408276" Gy="-0.0000000001416189943773767" Gz="0.72335530481434"/>
+            <Gradient XGr="335302.02" YGr="6501880" ZGr="-1101.44" Gx="0.57509235322847" Gy="-0.0000000001179534133612721" Gz="0.818088494759669"/>
+            <Gradient XGr="335779.29" YGr="6501880" ZGr="-1361.01" Gx="0.466758675424791" Gy="-0.0000000000957338046198431" Gz="0.884384723361782"/>
+            <Gradient XGr="336206.33" YGr="6501880" ZGr="-1578.71" Gx="0.406138641948018" Gy="-0.0000000000833004279169204" Gz="0.913811470444872"/>
+            <Gradient XGr="336608.25" YGr="6501880" ZGr="-1729.43" Gx="0.279999921147049" Gy="-0.0000000000574289438118483" Gz="0.960000022998774"/>
+            <Gradient XGr="336809.2" YGr="6501880" ZGr="-1754.55" Gx="0.0270168525587605" Gy="-0.00000000000554124908754961" Gz="0.999634978218459"/>
+            <Gradient XGr="336918.06" YGr="6501880" ZGr="-1737.8" Gx="-0.661622087027896" Gy="0.000000000949906283432461" Gz="0.749837458358044"/>
+            <Gradient XGr="336951.55" YGr="6501880" ZGr="-1628.95" Gx="-0.999444879327498" Gy="0.0000000002049895713641825" Gz="-0.0333156597719758"/>
+            <Gradient XGr="336909.68" YGr="6501880" ZGr="-1486.61" Gx="-0.993532676149372" Gy="0.0000000002037769582222577" Gz="-0.1135465605972557"/>
+            <Gradient XGr="336918.06" YGr="6501880" ZGr="-1335.89" Gx="-0.923076687838847" Gy="0.000000001325282760445654" Gz="0.384615949186281"/>
+            <Gradient XGr="336993.42" YGr="6501880" ZGr="-1285.65" Gx="0" Gy="0" Gz="1"/>
+            <Gradient XGr="337110.64" YGr="6501880" ZGr="-1335.89" Gx="0.510538415788799" Gy="-0.0000000001047131794681008" Gz="0.859854944745835"/>
+            <Gradient XGr="337261.36" YGr="6501880" ZGr="-1444.74" Gx="0.458643350809823" Gy="-0.0000000000940693237177819" Gz="0.888620434582695"/>
+            <Gradient XGr="337629.78" YGr="6501880" ZGr="-1603.83" Gx="0.369195333884117" Gy="-0.0000000000757232287722414" Gz="0.929351820054276"/>
+            <Gradient XGr="337872.61" YGr="6501880" ZGr="-1687.57" Gx="0.273003985858647" Gy="-0.0000000000559940534985116" Gz="0.962012902047208"/>
+            <Gradient XGr="334439.571" YGr="6501880" ZGr="154.551" Gx="0.750970319526754" Gy="-0.0000000001540265872497097" Gz="0.660335959334251"/>
+            <Gradient XGr="340175.25" YGr="6501880" ZGr="-1503.35" Gx="-0.393919450808827" Gy="0.000000000565559356052441" Gz="0.91914496477676"/>
+            <Gradient XGr="334866.607" YGr="6501880" ZGr="-331.097" Gx="0.707106781259063" Gy="-0.000000000145030025164104" Gz="0.707106781114032"/>
+            <Gradient XGr="335251.78" YGr="6501880" ZGr="-657.655" Gx="0.637146919968949" Gy="-0.0000000001306810177549032" Gz="0.7707423709477"/>
+            <Gradient XGr="335494.6" YGr="6501880" ZGr="-850.24" Gx="0.620403415589885" Gy="-0.0000000001272468676013619" Gz="0.784282858364509"/>
+            <Gradient XGr="335812.79" YGr="6501880" ZGr="-1101.44" Gx="0.486701342657561" Gy="-0.0000000000998241140430649" Gz="0.873568430665468"/>
+            <Gradient XGr="336080.73" YGr="6501880" ZGr="-1176.8" Gx="0.246398571098841" Gy="-0.0000000000505371917141491" Gz="0.969168583973113"/>
+            <Gradient XGr="336306.81" YGr="6501880" ZGr="-1227.04" Gx="-0.247832708206587" Gy="0.000000000355819207643221" Gz="0.968802843071277"/>
+            <Gradient XGr="336440.78" YGr="6501880" ZGr="-1084.69" Gx="-0.913811470528173" Gy="0.000000001311980471550928" Gz="0.406138641760593"/>
+            <Gradient XGr="336440.78" YGr="6501880" ZGr="-925.599" Gx="-0.994834217016256" Gy="0.000000000204043908716411" Gz="-0.1015129580578371"/>
+            <Gradient XGr="336398.91" YGr="6501880" ZGr="-674.401" Gx="-1" Gy="0.000000000615310185968091" Gz="-0.0000000002051033289333839"/>
+            <Gradient XGr="336440.78" YGr="6501880" ZGr="-565.549" Gx="-0.543250649258226" Gy="0.000000000779957645500119" Gz="0.839570564086495"/>
+            <Gradient XGr="336541.26" YGr="6501880" ZGr="-582.295" Gx="0.554700667877302" Gy="-0.0000000001137710087825004" Gz="0.832049979902935"/>
+            <Gradient XGr="336842.7" YGr="6501880" ZGr="-833.493" Gx="0.6123980458861" Gy="-0.0000000001256049388285666" Gz="0.790549576810263"/>
+            <Gradient XGr="337135.76" YGr="6501880" ZGr="-1042.82" Gx="0.502417955574201" Gy="-0.0000000001030476452369481" Gz="0.864624888559565"/>
+            <Gradient XGr="337462.32" YGr="6501880" ZGr="-1193.54" Gx="0.459423294394251" Gy="-0.0000000000942292928209983" Gz="0.888217448921115"/>
+            <Gradient XGr="337864.23" YGr="6501880" ZGr="-1419.62" Gx="0.376376265289233" Gy="-0.0000000000771960624233786" Gz="0.926466894674024"/>
+            <Gradient XGr="338266.15" YGr="6501880" ZGr="-1520.1" Gx="0.1858912733090029" Gy="-0.0000000000381269374871329" Gz="0.982570320388092"/>
+            <Gradient XGr="338483.85" YGr="6501880" ZGr="-1536.85" Gx="-0.0866294298391917" Gy="0.0000000001243758957686521" Gz="0.996240604415287"/>
+            <Gradient XGr="338651.32" YGr="6501880" ZGr="-1486.61" Gx="-0.690474734914051" Gy="0.000000000991330703895569" Gz="0.723356509921194"/>
+            <Gradient XGr="338668.07" YGr="6501880" ZGr="-1361.01" Gx="-1" Gy="0.000000000615310185968091" Gz="-0.0000000002051033289333839"/>
+            <Gradient XGr="338651.32" YGr="6501880" ZGr="-1201.92" Gx="-0.996545673746039" Gy="0.0000000002043949343594486" Gz="-0.0830464938335901"/>
+            <Gradient XGr="338634.57" YGr="6501880" ZGr="-959.092" Gx="-0.998131067328549" Gy="0.0000000002047201040187707" Gz="-0.0611095118093041"/>
+            <Gradient XGr="338626.2" YGr="6501880" ZGr="-791.627" Gx="-0.994691867683427" Gy="0.000000001428102346818749" Gz="0.102898437133202"/>
+            <Gradient XGr="338659.69" YGr="6501880" ZGr="-716.267" Gx="-0.490261946391395" Gy="0.000000000703880527170761" Gz="0.871575139572327"/>
+            <Gradient XGr="338760.17" YGr="6501880" ZGr="-716.267" Gx="0.478851216525596" Gy="-0.0000000000982140262591054" Gz="0.877896071543754"/>
+            <Gradient XGr="338843.91" YGr="6501880" ZGr="-816.747" Gx="0.728847945400127" Gy="-0.0000000001494892124693949" Gz="0.684675596531681"/>
+            <Gradient XGr="339019.74" YGr="6501880" ZGr="-992.585" Gx="0.645351035458393" Gy="-0.0000000001323637099697406" Gz="0.763886144024605"/>
+            <Gradient XGr="339329.55" YGr="6501880" ZGr="-1227.04" Gx="0.533992337519059" Gy="-0.0000000001095236592271548" Gz="0.845489316000463"/>
+            <Gradient XGr="339656.11" YGr="6501880" ZGr="-1394.5" Gx="0.422205366724726" Gy="-0.0000000000865957682536678" Gz="0.906500208664532"/>
+            <Gradient XGr="339940.8" YGr="6501880" ZGr="-1511.73" Gx="0.279329646518301" Gy="-0.0000000000572914681874439" Gz="0.96019526585792"/>
+            <Gradient XGr="340116.64" YGr="6501880" ZGr="-1528.47" Gx="-0.0356915568741601" Gy="0.0000000000512432018292373" Gz="0.999362853406058"/>
+          </Gradients>
+          <Points>
+            <gml:coord>
+              <gml:X>334196</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1799</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339176.22</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1779.26</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339207.91</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1633.48</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339245.94</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1544.75</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339322</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1513.06</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339429.75</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1544.75</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339505.81</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1589.12</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339607.22</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1639.82</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339727.65</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1703.2</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339892.45</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1760.25</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>340025.55</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1779.26</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>334196.7468</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>137.805</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>334565.17</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-398.084</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>334933.594</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-766.507</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>335302.02</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1101.44</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>335779.29</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1361.01</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336206.33</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1578.71</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336608.25</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1729.43</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336809.2</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1754.55</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336918.06</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1737.8</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336951.55</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1628.95</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336909.68</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1486.61</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336918.06</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1335.89</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336993.42</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1285.65</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>337110.64</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1335.89</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>337261.36</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1444.74</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>337629.78</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1603.83</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>337872.61</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1687.57</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338249.4</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1779.67</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>334439.571</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>154.551</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>334866.607</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-331.097</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>335251.78</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-657.655</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>335494.6</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-850.24</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>335812.79</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1101.44</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336080.73</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1176.8</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336306.81</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1227.04</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336440.78</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1084.69</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336440.78</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-925.599</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336398.91</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-674.401</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336440.78</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-565.549</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336541.26</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-582.295</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336842.7</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-833.493</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>337135.76</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1042.82</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>337462.32</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1193.54</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>337864.23</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1419.62</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338266.15</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1520.1</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338483.85</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1536.85</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338651.32</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1486.61</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338668.07</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1361.01</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338651.32</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1201.92</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338634.57</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-959.092</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338626.2</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-791.627</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338659.69</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-716.267</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338760.17</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-716.267</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338843.91</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-816.747</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339019.74</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-992.585</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339329.55</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1227.04</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339656.11</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1394.5</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339940.8</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1511.73</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>340116.64</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1528.47</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>340175.25</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1503.35</gml:Z>
+            </gml:coord>
+          </Points>
+          <Constraints>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+          </Constraints>
+          <InterfacePoints>
+            <InterfacePoint pnt="0" npnt="11"/>
+            <InterfacePoint pnt="11" npnt="18"/>
+            <InterfacePoint pnt="29" npnt="32"/>
+          </InterfacePoints>
+          <Solutions>
+            <Solution sol="-12.90768820250262"/>
+            <Solution sol="3.51076799830744"/>
+            <Solution sol="-11.67417197311124"/>
+            <Solution sol="-14.48322206162779"/>
+            <Solution sol="1.971943030150017"/>
+            <Solution sol="-1.991957168751507"/>
+            <Solution sol="-1.209676286464645"/>
+            <Solution sol="-1.470363201611739"/>
+            <Solution sol="-1.2782752779625"/>
+            <Solution sol="1.036179087421293"/>
+            <Solution sol="-8.23047668659134"/>
+            <Solution sol="-0.407990175236203"/>
+            <Solution sol="2.232765691298459"/>
+            <Solution sol="4.93499790947883"/>
+            <Solution sol="4.04016664176895"/>
+            <Solution sol="2.51436339187064"/>
+            <Solution sol="1.59847611972733"/>
+            <Solution sol="2.211727666016115"/>
+            <Solution sol="3.89519781824285"/>
+            <Solution sol="-10.59522146321668"/>
+            <Solution sol="-16.54233282650749"/>
+            <Solution sol="-14.47484826427638"/>
+            <Solution sol="-23.518085258033"/>
+            <Solution sol="1.366042086283988"/>
+            <Solution sol="2.99536421489227"/>
+            <Solution sol="2.089867591453551"/>
+            <Solution sol="0.659349037521917"/>
+            <Solution sol="-0.88226896135958"/>
+            <Solution sol="-11.76825322748114"/>
+            <Solution sol="-7.9109693422486"/>
+            <Solution sol="0.353878301070577"/>
+            <Solution sol="3.03453999677072"/>
+            <Solution sol="2.7468576125303"/>
+            <Solution sol="3.12714112066324"/>
+            <Solution sol="-0.906070452760336"/>
+            <Solution sol="-6.4025659480247"/>
+            <Solution sol="-11.9796879075528"/>
+            <Solution sol="-12.8278399773029"/>
+            <Solution sol="-15.88259372605566"/>
+            <Solution sol="-12.60942075351857"/>
+            <Solution sol="17.17656223318704"/>
+            <Solution sol="2.94294896023822"/>
+            <Solution sol="1.041719292725098"/>
+            <Solution sol="2.40652344644298"/>
+            <Solution sol="0.1739778118385158"/>
+            <Solution sol="0.880373595547496"/>
+            <Solution sol="-2.61126421288383"/>
+            <Solution sol="-11.32258715934207"/>
+            <Solution sol="-13.57492672991209"/>
+            <Solution sol="-7.84268829667432"/>
+            <Solution sol="-10.73778175584543"/>
+            <Solution sol="-15.54063315340384"/>
+            <Solution sol="-4.69724152160224"/>
+            <Solution sol="6.73724197889771"/>
+            <Solution sol="5.39753329932266"/>
+            <Solution sol="2.43896388653588"/>
+            <Solution sol="3.26292144899921"/>
+            <Solution sol="-4.30857788237623"/>
+            <Solution sol="2.244720120310579"/>
+            <Solution sol="7.98902164655096"/>
+            <Solution sol="0.00000001572486418659381"/>
+            <Solution sol="-0.00000000450191608330496"/>
+            <Solution sol="0.0000000227609857731781"/>
+            <Solution sol="0.0000000231116078216628"/>
+            <Solution sol="-0.0000000260958034186589"/>
+            <Solution sol="-0.00000001095586199479395"/>
+            <Solution sol="-0.00000000711958855600907"/>
+            <Solution sol="-0.00000000403942547639528"/>
+            <Solution sol="-0.0000000029316379253861"/>
+            <Solution sol="-0.00000000233075710886975"/>
+            <Solution sol="-0.000000000315516440756219"/>
+            <Solution sol="-0.00000000659406583382291"/>
+            <Solution sol="0.0000000002052094754790992"/>
+            <Solution sol="0.000000000517837506721587"/>
+            <Solution sol="0.000000001250520601374837"/>
+            <Solution sol="0.000000000993812428197873"/>
+            <Solution sol="-0.00000000429171644867532"/>
+            <Solution sol="-0.00000000830157139262969"/>
+            <Solution sol="-0.0000000188926315091675"/>
+            <Solution sol="0.0000000385589670129676"/>
+            <Solution sol="-0.00000001047656066545232"/>
+            <Solution sol="-0.00000001352134961876462"/>
+            <Solution sol="0.0000000554077663610694"/>
+            <Solution sol="-0.0000000239535901429631"/>
+            <Solution sol="-0.00000001069183383851176"/>
+            <Solution sol="-0.00000000393595064715468"/>
+            <Solution sol="-0.000000001016269962115053"/>
+            <Solution sol="-0.0000000001237623208514514"/>
+            <Solution sol="-0.00000000033013401224393"/>
+            <Solution sol="0.0000000224174714976104"/>
+            <Solution sol="-0.000000000555917832095486"/>
+            <Solution sol="-0.000000000956322587316672"/>
+            <Solution sol="-0.000000001944192845726913"/>
+            <Solution sol="-0.00000000251619838828155"/>
+            <Solution sol="-0.000000008728704043402"/>
+            <Solution sol="-0.00000000444932217052003"/>
+            <Solution sol="0.0000000396970395565058"/>
+            <Solution sol="-0.00000001948353757929676"/>
+            <Solution sol="0.00000000925219083246148"/>
+            <Solution sol="0.0000000250163808358378"/>
+            <Solution sol="-0.0000000253496196137516"/>
+            <Solution sol="-0.00000001045308162374774"/>
+            <Solution sol="-0.00000000360565038298168"/>
+            <Solution sol="0.0000000001788635479268809"/>
+            <Solution sol="-0.000000000897634424957733"/>
+            <Solution sol="-0.00000000460491916427498"/>
+            <Solution sol="-0.00000001330574837267517"/>
+            <Solution sol="0.0000000208428427215825"/>
+            <Solution sol="0.0000000032630720323526"/>
+            <Solution sol="-0.00000000872508363436207"/>
+            <Solution sol="-0.00000001362168589189245"/>
+            <Solution sol="0.0000000511207251977886"/>
+            <Solution sol="0.00000000686569161808668"/>
+            <Solution sol="-0.0000000239585199014337"/>
+            <Solution sol="-0.00000001241002422144859"/>
+            <Solution sol="-0.0000000055115954998647"/>
+            <Solution sol="-0.00000000489881697921105"/>
+            <Solution sol="0.00000000254955938966338"/>
+            <Solution sol="-0.00000000247422712545223"/>
+            <Solution sol="-0.00000001086466271784147"/>
+            <Solution sol="-0.2143577303610574"/>
+            <Solution sol="-1.19785563319947"/>
+            <Solution sol="3.56978336694649"/>
+            <Solution sol="9.88456525420022"/>
+            <Solution sol="10.60817506031901"/>
+            <Solution sol="2.78539568400433"/>
+            <Solution sol="1.401657967091517"/>
+            <Solution sol="0.607695341082751"/>
+            <Solution sol="1.056824198072865"/>
+            <Solution sol="-0.673990529594471"/>
+            <Solution sol="-1.310315464055775"/>
+            <Solution sol="0.508119717223329"/>
+            <Solution sol="0.529612639048535"/>
+            <Solution sol="3.82972884739209"/>
+            <Solution sol="7.39868609839025"/>
+            <Solution sol="-1.641605330426765"/>
+            <Solution sol="6.35927011774059"/>
+            <Solution sol="5.2621689719785"/>
+            <Solution sol="9.49509526948251"/>
+            <Solution sol="9.68792274353956"/>
+            <Solution sol="0.655773575074938"/>
+            <Solution sol="5.41226572719647"/>
+            <Solution sol="4.04560391634656"/>
+            <Solution sol="17.55843655369054"/>
+            <Solution sol="8.96967882304128"/>
+            <Solution sol="12.3568987471504"/>
+            <Solution sol="1.810264764529536"/>
+            <Solution sol="-2.32558915036076"/>
+            <Solution sol="0.532379469058621"/>
+            <Solution sol="-0.227955431737474"/>
+            <Solution sol="-0.515329888493773"/>
+            <Solution sol="2.151035769209551"/>
+            <Solution sol="5.82747958947217"/>
+            <Solution sol="-0.366639160630874"/>
+            <Solution sol="6.16596266295876"/>
+            <Solution sol="18.15642773030102"/>
+            <Solution sol="13.80926281612991"/>
+            <Solution sol="2.60630230414459"/>
+            <Solution sol="-2.71829652768449"/>
+            <Solution sol="13.67638345394699"/>
+            <Solution sol="8.66992667224822"/>
+            <Solution sol="8.88702723441017"/>
+            <Solution sol="-0.01126896311299361"/>
+            <Solution sol="3.39049343871779"/>
+            <Solution sol="-0.287491013952341"/>
+            <Solution sol="-0.59039911719835"/>
+            <Solution sol="7.26922186047427"/>
+            <Solution sol="20.14484842147962"/>
+            <Solution sol="2.65516758285569"/>
+            <Solution sol="1.799606973452658"/>
+            <Solution sol="2.36080634868719"/>
+            <Solution sol="-3.86743072398519"/>
+            <Solution sol="17.48762198429914"/>
+            <Solution sol="10.05733845031727"/>
+            <Solution sol="10.60851512980312"/>
+            <Solution sol="7.01110011062817"/>
+            <Solution sol="-1.180497064805703"/>
+            <Solution sol="-4.74788876892111"/>
+            <Solution sol="-1.510351339429284"/>
+            <Solution sol="2.190968527357018"/>
+            <Solution sol="590.569129596607"/>
+            <Solution sol="484.349761796399"/>
+            <Solution sol="-672.978894608437"/>
+            <Solution sol="-755.2577314081"/>
+            <Solution sol="-59.7746800543345"/>
+            <Solution sol="535.470112391827"/>
+            <Solution sol="-216.5112954066112"/>
+            <Solution sol="132.3719944136245"/>
+            <Solution sol="146.4854580397811"/>
+            <Solution sol="-253.561522870993"/>
+            <Solution sol="-2.86411527021218"/>
+            <Solution sol="1.526250477698298"/>
+            <Solution sol="281.21386776722"/>
+            <Solution sol="-173.9419576937027"/>
+            <Solution sol="232.305213588575"/>
+            <Solution sol="-52.0376873051166"/>
+            <Solution sol="-805.905784035931"/>
+            <Solution sol="1537.888096658804"/>
+            <Solution sol="431.139914512046"/>
+            <Solution sol="-494.994729721638"/>
+            <Solution sol="-358.119558248399"/>
+            <Solution sol="-798.298648444165"/>
+            <Solution sol="356.782871970243"/>
+            <Solution sol="655.947068456491"/>
+            <Solution sol="-36.5882916645208"/>
+            <Solution sol="-52.4405243454432"/>
+            <Solution sol="-120.4897208293793"/>
+            <Solution sol="19.72192603199731"/>
+            <Solution sol="-93.5659428255701"/>
+            <Solution sol="-336.561333937785"/>
+            <Solution sol="468.208672207264"/>
+            <Solution sol="-867.962765624615"/>
+            <Solution sol="493.60404308835"/>
+            <Solution sol="240.697504430313"/>
+            <Solution sol="-241.20444604614"/>
+            <Solution sol="272.125987855204"/>
+            <Solution sol="-1347.787305555179"/>
+            <Solution sol="590.590742355818"/>
+            <Solution sol="83.8034197350074"/>
+            <Solution sol="222.5381989707479"/>
+            <Solution sol="-453.916771760693"/>
+            <Solution sol="189.1142014027579"/>
+            <Solution sol="-113.9774387265211"/>
+            <Solution sol="-341.953258467461"/>
+            <Solution sol="1219.391308012554"/>
+            <Solution sol="-650.040864949817"/>
+            <Solution sol="-420.699886922042"/>
+            <Solution sol="478.346061252107"/>
+            <Solution sol="323.54565334979"/>
+            <Solution sol="-1075.802578094862"/>
+            <Solution sol="-884.562571251177"/>
+            <Solution sol="1088.981269456097"/>
+            <Solution sol="77.2261047921714"/>
+            <Solution sol="122.6396505210249"/>
+            <Solution sol="125.2050785544266"/>
+            <Solution sol="182.4588248221707"/>
+            <Solution sol="878.343312681907"/>
+            <Solution sol="-855.141960392827"/>
+            <Solution sol="-0.00512222926697202"/>
+            <Solution sol="0.0000000000528434165374645"/>
+            <Solution sol="0.451102604613939"/>
+          </Solutions>
+        </PotentialField>
+      </Series>
+      <Series name="UpperFolds" relation="1" isUptodate="false">
+        <Data Name="Blu2"/>
+        <PotentialField maxValue="5425.87" Xmin="334741" Ymin="6.50188e+006" Zmin="-1252.16" Xmax="340167" Ymax="6.50188e+006" Zmax="146.178">
+          <covariance covarianceModel="1" isotropic="true" anisotropyA1="0" anisotropyA2="0" anisotropyA3="0" anisotropyV1="0.000114943" anisotropyV2="0.000114943" anisotropyV3="0.000114943" range="8700" gradient="1" nuggetGradient="0.01" tangentVariance="1" nuggetPotentiel="1e-006" degreDrift="1"/>
+          <Gradients>
+            <Gradient XGr="334741.009" YGr="6501880" ZGr="146.178" Gx="0.662197725709239" Gy="-0.0000000001358190238993589" Gz="0.749329148015417"/>
+            <Gradient XGr="340166.88" YGr="6501880" ZGr="-339.471" Gx="0.1644017038445002" Gy="-0.0000000000337193531126016" Gz="0.986393471071775"/>
+            <Gradient XGr="335101.059" YGr="6501880" ZGr="-172.006" Gx="0.685025339705238" Gy="-0.000000000140501045794809" Gz="0.728519240625615"/>
+            <Gradient XGr="335302.02" YGr="6501880" ZGr="-381.337" Gx="0.655352713932742" Gy="-0.0000000001344150885157577" Gz="0.755322990740379"/>
+            <Gradient XGr="335670.44" YGr="6501880" ZGr="-666.028" Gx="0.511075577429833" Gy="-0.000000000104823353162345" Gz="0.859535778286607"/>
+            <Gradient XGr="335921.64" YGr="6501880" ZGr="-749.76" Gx="0.1606755548059899" Gy="-0.0000000000329551071696365" Gz="0.987007277626557"/>
+            <Gradient XGr="336030.49" YGr="6501880" ZGr="-724.641" Gx="-0.789352042266079" Gy="0.00000000113329116347529" Gz="0.6139408386566"/>
+            <Gradient XGr="336038.86" YGr="6501880" ZGr="-599.042" Gx="-1" Gy="0.000000000615310185968091" Gz="-0.0000000002051033289333839"/>
+            <Gradient XGr="336030.49" YGr="6501880" ZGr="-431.577" Gx="-0.997880102570122" Gy="0.0000000002046686302863804" Gz="-0.0650791894129154"/>
+            <Gradient XGr="336013.74" YGr="6501880" ZGr="-213.872" Gx="-0.997969108202713" Gy="0.0000000002046868856467821" Gz="-0.0636997572450771"/>
+            <Gradient XGr="336005.37" YGr="6501880" ZGr="-38.0335" Gx="-0.980580786880355" Gy="0.000000001407842738526235" Gz="0.1961155791901888"/>
+            <Gradient XGr="336080.73" YGr="6501880" ZGr="121.058" Gx="-0.524097392336894" Gy="0.000000000752458867187716" Gz="0.851658337213738"/>
+            <Gradient XGr="336223.08" YGr="6501880" ZGr="95.9387" Gx="0.586509485967204" Gy="-0.000000000120295106429824" Gz="0.809942357745591"/>
+            <Gradient XGr="336323.55" YGr="6501880" ZGr="-54.7799" Gx="0.749837458493745" Gy="-0.0000000001537942335678057" Gz="0.661622086874102"/>
+            <Gradient XGr="336599.87" YGr="6501880" ZGr="-331.097" Gx="0.695022372126416" Gy="-0.0000000001425514714193919" Gz="0.718988109946033"/>
+            <Gradient XGr="336825.95" YGr="6501880" ZGr="-540.429" Gx="0.644870944283077" Gy="-0.0000000001322652416236824" Gz="0.764291479227299"/>
+            <Gradient XGr="337135.76" YGr="6501880" ZGr="-783.254" Gx="0.564308700556846" Gy="-0.0000000001157416492263817" Gz="0.825563862142623"/>
+            <Gradient XGr="337487.44" YGr="6501880" ZGr="-992.585" Gx="0.469155620775462" Gy="-0.0000000000962254263292346" Gz="0.883115509712512"/>
+            <Gradient XGr="337671.65" YGr="6501880" ZGr="-1067.94" Gx="0.316228613428565" Gy="-0.0000000000648595728094876" Gz="0.948683015579518"/>
+            <Gradient XGr="337839.11" YGr="6501880" ZGr="-1109.81" Gx="0.0665189263450385" Gy="-0.0000000000136432598546607" Gz="0.997785163468521"/>
+            <Gradient XGr="338048.45" YGr="6501880" ZGr="-1093.06" Gx="-0.399586001773589" Gy="0.000000000573694955622579" Gz="0.916695711338608"/>
+            <Gradient XGr="338165.67" YGr="6501880" ZGr="-967.465" Gx="-0.913811470528173" Gy="0.000000001311980471550928" Gz="0.406138641760593"/>
+            <Gradient XGr="338182.42" YGr="6501880" ZGr="-791.627" Gx="-0.996728996543731" Gy="0.000000001431027100303412" Gz="0.0808165048051846"/>
+            <Gradient XGr="338190.79" YGr="6501880" ZGr="-657.655" Gx="-0.996346637810441" Gy="0.0000000002043541114066592" Gz="-0.0854012723782853"/>
+            <Gradient XGr="338157.3" YGr="6501880" ZGr="-498.563" Gx="-0.968917796926002" Gy="0.0000000001987283621010038" Gz="-0.247382907251214"/>
+            <Gradient XGr="338090.31" YGr="6501880" ZGr="-264.111" Gx="-0.998274435359532" Gy="0.0000000002047495092934651" Gz="-0.0587209648048142"/>
+            <Gradient XGr="338132.18" YGr="6501880" ZGr="-71.5266" Gx="-0.775234522223944" Gy="0.000000001113022310216855" Gz="0.631673519749097"/>
+            <Gradient XGr="338274.52" YGr="6501880" ZGr="-38.0335" Gx="0.1351132736052083" Gy="-0.0000000000277121956546315" Gz="0.990830158652675"/>
+            <Gradient XGr="338500.6" YGr="6501880" ZGr="-121.766" Gx="0.509802871484026" Gy="-0.0000000001045623168093655" Gz="0.86029124848893"/>
+            <Gradient XGr="338726.68" YGr="6501880" ZGr="-305.978" Gx="0.68906195160445" Gy="-0.0000000001413289687349314" Gz="0.724702440213269"/>
+            <Gradient XGr="339011.37" YGr="6501880" ZGr="-607.415" Gx="0.692120498834592" Gy="-0.0000000001419562872581158" Gz="0.721781971992204"/>
+            <Gradient XGr="339337.93" YGr="6501880" ZGr="-892.106" Gx="0.627329886702829" Gy="-0.0000000001286675105741531" Gz="0.778753628081061"/>
+            <Gradient XGr="339614.25" YGr="6501880" ZGr="-1093.06" Gx="0.52256255323192" Gy="-0.0000000001071793712826487" Gz="0.852600948838164"/>
+            <Gradient XGr="339857.07" YGr="6501880" ZGr="-1210.29" Gx="0.337461661190237" Gy="-0.0000000000692145437032792" Gz="0.941339273177703"/>
+            <Gradient XGr="340058.03" YGr="6501880" ZGr="-1252.16" Gx="-0.1339180391954445" Gy="0.0000000001922692567114128" Gz="0.990992411059766"/>
+            <Gradient XGr="340166.88" YGr="6501880" ZGr="-1168.42" Gx="-0.95448010633776" Gy="0.000000001370369381854227" Gz="0.2982745825669"/>
+            <Gradient XGr="340141.76" YGr="6501880" ZGr="-984.212" Gx="-0.985821149544015" Gy="0.000000000202195297676396" Gz="-0.1677994669589791"/>
+            <Gradient XGr="340099.89" YGr="6501880" ZGr="-774.88" Gx="-0.970142684188737" Gy="0.0000000001989795906781381" Gz="-0.242534888861524"/>
+            <Gradient XGr="340032.91" YGr="6501880" ZGr="-548.802" Gx="-0.981392663533838" Gy="0.0000000002012870000125676" Gz="-0.1920115620528083"/>
+            <Gradient XGr="340024.53" YGr="6501880" ZGr="-389.71" Gx="-0.933345675337772" Gy="0.000000001340026185644074" Gz="0.358978899558564"/>
+            <Gradient XGr="340116.64" YGr="6501880" ZGr="-331.097" Gx="-0.332821190393223" Gy="0.000000000477839156540529" Gz="0.942989954996997"/>
+          </Gradients>
+          <Points>
+            <gml:coord>
+              <gml:X>334741.009</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>146.178</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>335101.059</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-172.006</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>335302.02</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-381.337</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>335670.44</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-666.028</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>335921.64</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-749.76</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336030.49</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-724.641</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336038.86</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-599.042</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336030.49</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-431.577</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336013.74</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-213.872</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336005.37</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-38.0335</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336080.73</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>121.058</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336223.08</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>95.9387</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336323.55</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-54.7799</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336599.87</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-331.097</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>336825.95</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-540.429</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>337135.76</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-783.254</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>337487.44</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-992.585</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>337671.65</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1067.94</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>337839.11</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1109.81</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338048.45</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1093.06</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338165.67</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-967.465</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338182.42</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-791.627</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338190.79</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-657.655</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338157.3</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-498.563</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338090.31</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-264.111</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338132.18</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-71.5266</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338274.52</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-38.0335</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338500.6</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-121.766</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>338726.68</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-305.978</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339011.37</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-607.415</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339337.93</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-892.106</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339614.25</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1093.06</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>339857.07</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1210.29</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>340058.03</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1252.16</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>340166.88</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-1168.42</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>340141.76</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-984.212</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>340099.89</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-774.88</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>340032.91</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-548.802</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>340024.53</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-389.71</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>340116.64</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-331.097</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>340166.88</gml:X>
+              <gml:Y>6501880</gml:Y>
+              <gml:Z>-339.471</gml:Z>
+            </gml:coord>
+          </Points>
+          <Constraints>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+            <Constraint value="0"/>
+          </Constraints>
+          <InterfacePoints>
+            <InterfacePoint pnt="0" npnt="41"/>
+          </InterfacePoints>
+          <Solutions>
+            <Solution sol="1.303685634420132"/>
+            <Solution sol="13.29957093303703"/>
+            <Solution sol="0.0273237999603218"/>
+            <Solution sol="-1.483508973696985"/>
+            <Solution sol="2.145334543623696"/>
+            <Solution sol="9.67625514365445"/>
+            <Solution sol="-14.05860844416018"/>
+            <Solution sol="-12.35780549937046"/>
+            <Solution sol="-8.32785145267368"/>
+            <Solution sol="-9.38131695495648"/>
+            <Solution sol="-9.99728716246846"/>
+            <Solution sol="-11.69539790316715"/>
+            <Solution sol="3.48328199652031"/>
+            <Solution sol="3.35458278946755"/>
+            <Solution sol="3.49820653755559"/>
+            <Solution sol="1.871511310107263"/>
+            <Solution sol="0.974721573886633"/>
+            <Solution sol="1.859414813046091"/>
+            <Solution sol="-0.390315144965552"/>
+            <Solution sol="-4.19860328110821"/>
+            <Solution sol="-1.365848904978037"/>
+            <Solution sol="-5.43004507331859"/>
+            <Solution sol="-3.91974952052353"/>
+            <Solution sol="-4.14592751869123"/>
+            <Solution sol="-5.1694101654595"/>
+            <Solution sol="-7.35794428260863"/>
+            <Solution sol="-13.60781130027387"/>
+            <Solution sol="2.98765890887056"/>
+            <Solution sol="0.714447627715989"/>
+            <Solution sol="2.094857013337289"/>
+            <Solution sol="3.08152369023578"/>
+            <Solution sol="2.50241266938821"/>
+            <Solution sol="1.402352599970369"/>
+            <Solution sol="-0.295335410110221"/>
+            <Solution sol="0.803099669330541"/>
+            <Solution sol="-13.41665665228282"/>
+            <Solution sol="-8.07136263290715"/>
+            <Solution sol="-6.11314715849979"/>
+            <Solution sol="-10.04469072038643"/>
+            <Solution sol="-16.96041723161058"/>
+            <Solution sol="-12.40757295350592"/>
+            <Solution sol="-0.000000001682295924906249"/>
+            <Solution sol="-0.0000000288746161220034"/>
+            <Solution sol="-0.00000000243948977284434"/>
+            <Solution sol="-0.00000000302788935795265"/>
+            <Solution sol="-0.00000000674538373577002"/>
+            <Solution sol="-0.0000000252209643631526"/>
+            <Solution sol="0.000000039647610705829"/>
+            <Solution sol="0.00000000669232117860192"/>
+            <Solution sol="-0.00000000785472479494612"/>
+            <Solution sol="-0.00000001558339368024973"/>
+            <Solution sol="0.0000000423221920162533"/>
+            <Solution sol="0.00000001112443877342243"/>
+            <Solution sol="-0.00000002139361825729984"/>
+            <Solution sol="-0.00000001064662037962927"/>
+            <Solution sol="-0.00000000391618271719004"/>
+            <Solution sol="-0.00000000260178692906965"/>
+            <Solution sol="-0.000000001624209395475372"/>
+            <Solution sol="-0.000000002087786962186053"/>
+            <Solution sol="-0.00000000410529185060235"/>
+            <Solution sol="-0.00000001201032702915505"/>
+            <Solution sol="-0.00000000327941355130061"/>
+            <Solution sol="0.00000002130866051590756"/>
+            <Solution sol="0.0000000353175553003654"/>
+            <Solution sol="-0.0000000228589602448966"/>
+            <Solution sol="-0.00000000526218311378725"/>
+            <Solution sol="-0.00000000971679507158872"/>
+            <Solution sol="0.0000000384340826689797"/>
+            <Solution sol="-0.00000001954548469365804"/>
+            <Solution sol="-0.00000000527024412154152"/>
+            <Solution sol="-0.00000000411658971060294"/>
+            <Solution sol="-0.00000000489441301857786"/>
+            <Solution sol="-0.00000000341208763241814"/>
+            <Solution sol="-0.0000000028468435742618"/>
+            <Solution sol="-0.00000000888291188361003"/>
+            <Solution sol="-0.00000001718388152526385"/>
+            <Solution sol="0.000000044254911602072"/>
+            <Solution sol="-0.00000001414801594327128"/>
+            <Solution sol="-0.00000000336917141067709"/>
+            <Solution sol="-0.00000001402646929998905"/>
+            <Solution sol="0.0000000473598277413483"/>
+            <Solution sol="0.000000002166445565097815"/>
+            <Solution sol="-0.1252921680092305"/>
+            <Solution sol="8.76812107262638"/>
+            <Solution sol="2.42177472441579"/>
+            <Solution sol="2.97043154680448"/>
+            <Solution sol="1.598383776723555"/>
+            <Solution sol="10.77923715520652"/>
+            <Solution sol="9.5938530818791"/>
+            <Solution sol="2.42151358511722"/>
+            <Solution sol="1.137299246058148"/>
+            <Solution sol="1.94282358226567"/>
+            <Solution sol="7.74690344721696"/>
+            <Solution sol="13.40610064132134"/>
+            <Solution sol="11.71598677531208"/>
+            <Solution sol="11.22637218949206"/>
+            <Solution sol="3.26494926815278"/>
+            <Solution sol="3.3232124504403"/>
+            <Solution sol="1.895854577420364"/>
+            <Solution sol="-0.304732823369219"/>
+            <Solution sol="0.466640081214096"/>
+            <Solution sol="1.788083963930503"/>
+            <Solution sol="5.91263595898218"/>
+            <Solution sol="5.79287545374909"/>
+            <Solution sol="2.95698754311757"/>
+            <Solution sol="-0.880803073128643"/>
+            <Solution sol="1.512622033034474"/>
+            <Solution sol="3.20565403190676"/>
+            <Solution sol="3.89602253345265"/>
+            <Solution sol="7.40973388168452"/>
+            <Solution sol="3.24193630793587"/>
+            <Solution sol="3.76537674160141"/>
+            <Solution sol="4.36228568611704"/>
+            <Solution sol="3.18426660677513"/>
+            <Solution sol="2.159490002312196"/>
+            <Solution sol="4.5536069112851"/>
+            <Solution sol="11.2599358493821"/>
+            <Solution sol="2.87838836913405"/>
+            <Solution sol="2.47387249430098"/>
+            <Solution sol="0.0402499941784095"/>
+            <Solution sol="0.742579544607726"/>
+            <Solution sol="-1.728766544757814"/>
+            <Solution sol="5.81840335423808"/>
+            <Solution sol="-128.1781797561536"/>
+            <Solution sol="68.6638731989715"/>
+            <Solution sol="-97.6699764597006"/>
+            <Solution sol="-457.654139889578"/>
+            <Solution sol="1718.102831810474"/>
+            <Solution sol="-976.703196680706"/>
+            <Solution sol="-157.7823431578799"/>
+            <Solution sol="309.29933562595"/>
+            <Solution sol="149.9182355909532"/>
+            <Solution sol="-945.297396225783"/>
+            <Solution sol="-397.666057605289"/>
+            <Solution sol="952.171371739554"/>
+            <Solution sol="-48.0208466843778"/>
+            <Solution sol="-6.86698890112464"/>
+            <Solution sol="11.55007820420191"/>
+            <Solution sol="16.61218041676471"/>
+            <Solution sol="-209.2179805251955"/>
+            <Solution sol="-116.0771425824401"/>
+            <Solution sol="415.86208103549"/>
+            <Solution sol="433.640428780776"/>
+            <Solution sol="-816.241450250089"/>
+            <Solution sol="419.296765590794"/>
+            <Solution sol="147.8430779510789"/>
+            <Solution sol="52.3505886559769"/>
+            <Solution sol="-837.319282664037"/>
+            <Solution sol="384.756828586829"/>
+            <Solution sol="47.922753220676"/>
+            <Solution sol="16.37374277211318"/>
+            <Solution sol="62.1618618687518"/>
+            <Solution sol="-27.3355491946885"/>
+            <Solution sol="7.10913026247489"/>
+            <Solution sol="-377.698976009116"/>
+            <Solution sol="247.484630728748"/>
+            <Solution sol="839.828927379214"/>
+            <Solution sol="-757.910162889158"/>
+            <Solution sol="215.3130177224204"/>
+            <Solution sol="424.512535936552"/>
+            <Solution sol="-1369.201125654734"/>
+            <Solution sol="-642.094314968709"/>
+            <Solution sol="1412.158581997042"/>
+            <Solution sol="0.260991965845615"/>
+            <Solution sol="0.0000000002002738377258716"/>
+            <Solution sol="1.066835928672359"/>
+          </Solutions>
+        </PotentialField>
+      </Series>
+    </ProjectStratigraphicColumn>
+    <ModelStratigraphicColumn>
+      <Data Name="LowerFolds"/>
+      <Data Name="UpperFolds"/>
+    </ModelStratigraphicColumn>
+  </GeologicalModel>
+
+  <ProvenanceTable>
+    <Head>
+      <Variable Name="Rank"/>
+      <Variable Name="Provenance"/>
+    </Head>
+    <Result>
+      <Row>"0","Unspecified"</Row>
+      <Row>"1","Observed"</Row>
+      <Row>"2","Inferred"</Row>
+      <Row>"3","Interpreted"</Row>
+      <Row>"4","ModelConstructor"</Row>
+    </Result>
+  </ProvenanceTable>
+
+</Project3DEdit>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<DockingDesktop version="2.0">
+<DockingPanel>
+<Split orientation="1" location="0.5797101449275363">
+<Split orientation="1" location="0.18928571428571428">
+<Dockable>
+<Key dockName="Explore"/>
+</Dockable>
+<TabbedDockable>
+<Dockable>
+<Key dockName="Topo_Z"/>
+</Dockable>
+<Dockable>
+<Key dockName="WE"/>
+</Dockable>
+</TabbedDockable>
+</Split>
+<Dockable>
+<Key dockName="3D View"/>
+</Dockable>
+</Split>
+</DockingPanel>
+<TabGroups>
+<TabGroup>
+<Dockable>
+<Key dockName="Topo_Z"/>
+</Dockable>
+<Dockable>
+<Key dockName="WE"/>
+</Dockable>
+</TabGroup>
+</TabGroups>
+</DockingDesktop>
